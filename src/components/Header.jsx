@@ -14,7 +14,7 @@ export const Header = () => {
       <div>
             <nav className='fixed-header'>
               <div>
-                <img src={logo} alt=" "/>
+                <img src={logo} alt=" " className='h-12 w-100'/>
               </div>
               <div>
                 <ul className='nav_list'>
@@ -30,4 +30,4 @@ export const Header = () => {
           </div>
     );
   }
-  
+   export default Header
